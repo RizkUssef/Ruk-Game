@@ -1,0 +1,22 @@
+headers & links color #EB8317
+text color #CF965B
+bg color #1E1E1E
+
+shadow rgba(235, 131, 23,0.3)  33%
+
+230*300 px
+
+472px
+
+font family Iceberg
+
+.iceberg-regular {
+  font-family: "Iceberg", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+rgba(102, 102, 102,0.4) 40%
+rgb(0, 0, 0)
+
+rgba(132, 132, 132,0.5)
