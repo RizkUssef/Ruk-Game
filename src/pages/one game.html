@@ -10,9 +10,14 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Iceberg&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../css/output.css">
+    <link rel="stylesheet" href="../css/all.min.css">
+
 </head>
 
 <body class="font-serif bg-bg">
+    <div id="search_show" class="top-0 bottom-0 left-0 right-0 z-[99999] bg-search-shadow hidden">
+
+    </div>
     <nav class="bg-bg drop-shadow-nav py-4 px-20 flex justify-between">
         <div class="flex items-center gap-5">
             <img src="../imgs/logo.svg" alt="logo" srcset="">
@@ -39,7 +44,7 @@
                     <a href="#" class="text-2xl">Pixel</a>
                 </li>
                 <li>
-                    <button class="text-2xl">s</button>
+                    <button id="search" class="text-2xl"><i class="fa-solid fa-magnifying-glass"></i></button>
                 </li>
             </ul>
         </div>
@@ -85,7 +90,7 @@
                             <p class="text-primary">22,500</p>
                         </div>
                         <div>
-                            <a class="text-bg px-14 text-2xl py-3 rounded-2xl z-20 bg-primary w-fit">Show</a>
+                            <a class="text-bg px-14 text-2xl py-3 rounded-2xl z-20 bg-primary w-fit hover:bg-secondary transition-all duration-1000 cursor-pointer">Show</a>
                         </div>
                     </div>
                 </div>
@@ -99,6 +104,8 @@
             <h1 class="text-primary text-4xl font-semibold">Ruk Games</h1>
         </div>
     </footer>
+    <script src="../js/jquery-3.7.1.min.js"></script>
+    <script src="../js/script.js"></script>
 </body>
 
 </html>
